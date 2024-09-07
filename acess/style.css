@@ -1,0 +1,445 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+/* golobal contant */
+.contant{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 10px;
+    
+    
+    
+}
+/* main contant */
+.navber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: skyblue;
+    line-height: 50px;
+}
+.logo img{
+    width: 100px;
+    margin-top: 4px;
+   border: 2px solid white;
+   border-radius: 3px;
+   margin-top: 13%;
+   
+}
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+
+}
+nav ul li a:hover{
+    color: black;
+}
+.hero{
+    display: flex;
+    background-color:  rgba(246,219,215);
+ 
+}
+.logo2 img{
+    width: 500px;
+    height: 400px;
+
+    
+    
+    border-radius: 5px ;
+}
+/* body hero2 */
+.hero2 h6{
+   font-size: 20px;
+   margin-right: 50%;
+   color: crimson;
+}
+.hero2{
+    text-align: center;
+    margin-top: 5%;
+}
+.hero2 h1{
+    margin-right: 22%;
+    color: black;
+    font-size: 34px;
+}
+.hero2 h2{
+    color: black;
+    font-size: 30px;
+    margin-right: 33%;
+}
+.hero2 p{
+    margin-top: 10px;
+   text-align: justify;
+    font-size: 17px;
+    margin-left: 20%;
+    color: black;
+   
+    font-family: sans-serif;
+}
+.hero .btn-button{
+    margin-top: 40px;
+    padding: 14px 30px;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    font-size: 16px;
+    font-family: cursive;
+    background-color: crimson;
+    color: #f2f2f2;
+   margin-left: 3%;
+}
+.hero2 .btn-button:hover{
+  
+    color: white;
+    background-color: black;
+}
+
+/* work by servises div */
+.Services{
+    text-align: center;
+    margin-top: 8%;
+}
+.Services h4{
+    color: blue;
+}
+.Services h2{
+    font-weight: 800;
+    font-size: 30px;
+}
+.Services p{
+    margin-top: 7px;
+    font-size: 16px;
+    font-family: cursive;
+    color: rgb(84, 65, 30);
+    
+}
+/* cadit card div start*/
+.main-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    grid-gap: 10px;
+   
+}
+.card{
+    text-align: center;
+    background-color: #ffff;
+    padding: 40px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 2px 4px 7px 0px rgba(204, 204, 204, 0.7), 2px 4px 7px 0px rgba(232, 215, 215, 0.7);
+    
+}
+.lone{
+    
+    font-size: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    
+}
+.plus{
+    font-size: 40PX;
+    border-radius: 4px;
+   
+
+}
+.carde{
+    font-size: 40px;
+    border-radius: 4px;
+   
+}
+.bank{
+    font-size: 40px;
+    border-radius: 4px;
+    
+}
+.chat{
+    font-size: 40px;
+    border-radius: 4px;
+    
+}
+.personal{
+    font-size: 40px;
+    border-radius: 4px;
+    
+}
+.card h3{
+    margin-top: 12px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card p{
+    font-size: 17px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(85, 76, 76);
+    font-weight: 500;
+    text-align: justify;
+}
+.card-deginer{
+    display: flex;
+   background-color: #f2f2f2;
+    margin-top: 8%;
+    border: 1px skyblue;
+
+}
+.master-card img{
+    height: 300px;
+  
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+/* offer deginer */
+.offer{
+    margin-left: 30px;
+    margin-top: 5%;
+}
+.offer h5{
+    color: rgb(55, 55, 175);
+    font-size: 17px;
+}
+.offer h2{
+    font-size: 30px;
+}
+.offer h3{
+    font-size: 25px;
+}
+.offer p{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.btn-buttonar{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: crimson;
+    color: white;
+   border: 1px solid black;
+}
+.btn-buttonar:hover{
+    color: #fff;
+    background-color: black;
+}
+.main-animation{
+    display: flex;
+    margin-top: 5%;
+    gap: 10%;
+   margin-left: 10%;
+    background-color: #fff;
+    border: 2px solid white;
+}
+.animation1{
+  
+    width: 60px;
+    background-color: blueviolet;
+  
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+   padding: 10px;
+   font-weight: 900;
+  
+}
+.animation1:hover{
+    background-color: cyan;
+    color: black;
+   
+}
+
+.animation2{
+    width:60px;
+    background-color: rgb(160, 17, 160);
+    animation: mysystem 10s alternate infinite;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+   padding: 10px;
+   font-weight: 900;
+   margin-top: 30px;
+   
+}
+
+.animation2:hover{
+    background-color: red;
+    color: black;
+}
+
+
+.animation3{
+    
+    width: 60px;
+    background-color: red;
+  
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+   padding: 10px ;
+   font-weight: 900;
+}
+.animation3:hover{
+    background-color: rgb(21, 110, 21);
+    color: navy;
+}
+
+.animation h2{
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.animation p{
+    margin-top: 10px;
+    color: rgb(89, 78, 78);
+    font-weight: 800;
+    text-align: justify;
+}
+/* insurang div */
+.insurang{
+    display: flex;
+    display: flex;
+    background-color: rgb(245, 233, 233);
+    margin-top: 7%;
+   
+    
+}
+.insurang2 img{
+    height: 400px;
+    width: 500px;
+    margin-left: 6%;
+}
+.insurang1{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.insurang1 h6{
+    font-size: 16px;
+    color: blue;
+
+}
+.insurang1 h2{
+    font-size: 23px;
+    font-weight: 800;
+   
+    
+}
+.insurang1 p{
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgb(67, 65, 65);
+  font-weight: bold;
+}
+/* clint isuu start*/
+
+.clint{
+    display: flex;
+    margin-top: 5%;
+}
+.clint2 img{
+    height: 400px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.clint1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid skyblue;
+    margin-top: 10px;
+
+}
+.clint1{
+    margin-left: 18%;
+    margin-top: 4%;
+
+}
+.clint1 p{
+    margin-top: 20px;
+    
+    font-size: 16px;
+   font-weight: 700;
+   color: rgb(67, 65, 65);
+}
+.clint1 h6{
+    font-size: 20px;
+    color: blue;
+
+}
+.clint1 h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.clint1 h3{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.clint1 h3 span{
+    color: crimson;
+    font-size: 20px;
+}
+/* clint issuend  end*/
+/* footer star */
+.last{
+    text-align: center;
+    margin-top: 7%;
+    background-color: rgb(205, 199, 199);
+    padding: 30px;
+   
+
+}
+.last h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 200;
+}
+.last p{
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+
+.submit{
+    padding: 15px 40px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: ghostwhite;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+.submit:hover{
+    color: black;
+   background-color: skyblue;
+}
+input{
+  padding: 15px 100px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-left: 15%;
+}
+input:hover{
+    background-color: azure;
+}
+/* footer end */
